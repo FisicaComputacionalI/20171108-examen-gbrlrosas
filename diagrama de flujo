@@ -1,0 +1,10 @@
+//Rosas GAlicia jose gabriel
+//el programa inicia con x=1, si x<=5 entonces pregunta si x%3=0si no es igual a 0 entonces imprime x, si es igual a 0 entonces x=x+2 y vuelve a preguntar si x<=5 si no  entonces sale del ciclo y finaliza el programa
+#include <iostream>
+using namespace std;
+int main(){
+	int x=2;
+	while(x<=5){if(x%3==0){x;}else{cout<<x<<endl;}
+	x=x+2;}
+	return 0;
+}
