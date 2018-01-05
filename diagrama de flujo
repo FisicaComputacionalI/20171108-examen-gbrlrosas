@@ -4,7 +4,10 @@
 using namespace std;
 int main(){
 	int x=2;
-	while(x<=5){if(x%3==0){x;}else{cout<<x<<endl;}
+	while(x<=5){if(x%3==0){
+	    //esta linea no hace nada. 
+	    x;}
+	  else{cout<<x<<endl;}
 	x=x+2;}
 	return 0;
 }
